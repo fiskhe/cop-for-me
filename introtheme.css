@@ -1,0 +1,30 @@
+body {
+  background-color: #8AA4AB;
+}
+
+table, th, td {
+  background-color: #C4D5C5;
+  border: 2px solid #162607;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.div1 {
+  border: solid 1px #162607;
+  text-align: left;
+  background-color: #6F8E74;
+}
+
+/*.div2 {*/
+/*  border: solid 1px #162607;*/
+/*  text-align: left;*/
+/*  background-color: #E3DED9;*/
+/*}*/
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+p {
+  color: #162607
+}
