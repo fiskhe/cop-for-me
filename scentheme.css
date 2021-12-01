@@ -1,0 +1,36 @@
+body {
+  background-color: #C4D5C5;
+  /*background-color: #6F8E74;*/
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+.div1 {
+  /*background-color: #A7B1C4;*/
+  background-color: #8AA4AB;
+  padding-bottom: 8px;
+}
+
+img {
+  alignment: center;
+}
+
+table, th, td {
+  margin-left: auto;
+  margin-right: auto;
+  /*background-color: #A7B1C4;*/
+  background-color: #8AA4AB;
+  border: 1px solid #162607;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 8px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
