@@ -1,5 +1,6 @@
 body {
   background-color: #C4D5C5;
+  color: #162607
   /*background-color: #6F8E74;*/
 }
 
@@ -10,7 +11,8 @@ h1, h2, h3 {
 .div1 {
   /*background-color: #A7B1C4;*/
   background-color: #8AA4AB;
-  padding-bottom: 8px;
+  padding: 8px;
+  border: solid 1px #162607;
 }
 
 img {
@@ -25,7 +27,7 @@ table, th, td {
   border: 1px solid #162607;
   border-collapse: collapse;
   text-align: center;
-  padding: 8px;
+  padding: 4px;
 }
 
 .center {
