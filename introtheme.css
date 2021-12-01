@@ -1,5 +1,6 @@
 body {
   background-color: #8AA4AB;
+  color: #162607
 }
 
 table, th, td {
@@ -16,6 +17,7 @@ table, th, td {
   border: solid 1px #162607;
   text-align: left;
   background-color: #6F8E74;
+  padding: 4px;
 }
 
 /*.div2 {*/
@@ -26,8 +28,4 @@ table, th, td {
 
 h1, h2, h3 {
   text-align: center;
-}
-
-p {
-  color: #162607
 }
