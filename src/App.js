@@ -4,7 +4,8 @@ import './App.css';
 import MapChart from "./MapChart";
 import Main from "./Main";
 import Intro from './stash/Intro';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import CountryDataVisual from './CountryDataVisual'
+import { Link } from 'react-router-dom';
 import ReactTooltip from "react-tooltip";
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
   return (
       <>
       <h1> Climate Change Progress</h1>
-    <div id="HILLO">
+      <div id="HILLO">
       <MapChart setTooltipContent={setContent} />
       <ReactTooltip>{content}</ReactTooltip>
       <Main />
@@ -24,5 +25,11 @@ function App() {
       </>
   );
 }
+      // <CountryDataVisual value={{NAME: "hi",
+      //     POP_EST: "34124811",
+      //     END_DEFOREST: "No",
+      //     NET_ZERO_TARGET_DATE: "2050",
+      //     QUIT_COAL: "No",
+      //     CUT_METHANE: "No"}}/>
 
 export default App;

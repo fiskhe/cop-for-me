@@ -8,19 +8,16 @@ import {
   Graticule
 } from "react-simple-maps";
 import CountryDataVisual from './CountryDataVisual';
-import './map.css';
-
-const geoUrl =
-  "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json";
+import './css/map.css';
+import geoJSONData from "./data/world-and-aljazeera-data.json"
 
 const MapChart = ({ setTooltipContent }) => {
   return (
     <>
-      <ComposableMap data-tip="" height="300" projectionConfig={{ scale: 125 }}>
-        <ZoomableGroup>
+      <ComposableMap id="CountryMap" data-tip="" height="350" projectionConfig={{ scale: 125 }}>
             <Sphere stroke="#E4E5E6" strokeWidth={0.5} />
             <Graticule stroke="#E4E5E6" strokeWidth={0.5} />
-          <Geographies geography={geoUrl}>
+          <Geographies geography={geoJSONData}>
             {({ geographies }) =>
               geographies.map(geo => (
                 <Geography
@@ -55,7 +52,6 @@ const MapChart = ({ setTooltipContent }) => {
               ))
             }
           </Geographies>
-        </ZoomableGroup>
       </ComposableMap>
     </>
   );

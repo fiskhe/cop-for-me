@@ -1,6 +1,9 @@
+html {
+  color: #136CAE;
+}
 body {
   background-color: #8AA4AB;
-  color: #162607
+  /* color: #162607; */
 }
 
 table, th, td {

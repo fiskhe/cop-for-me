@@ -1,7 +1,18 @@
+import './css/CountryDataVisual.css'
+
 export default function CountryDataVisual(props) {
     const { NAME, POP_EST } = props.value;
     return (
-        <p>{NAME} — {rounded(POP_EST)}</p>
+        <div className="CountryDataVisual">
+            <p>{NAME} — {rounded(POP_EST)}</p>
+            <div>
+                <p>Pledged to:</p>
+                <p>End Deforestation: {props.value.END_DEFOREST}</p>
+                <p>Quit Coal: {props.value.QUIT_COAL}</p>
+                <p>Cut Methane Emissions: {props.value.CUT_METHANE}</p>
+                <p>Net Zero Target Date: {props.value.NET_ZERO_TARGET_DATE}</p>
+            </div>
+        </div>
     );
 }
 
