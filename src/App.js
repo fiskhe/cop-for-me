@@ -1,27 +1,26 @@
 import React, { useState } from "react";
-import logo from './logo.svg';
-import './App.css';
-import MapChart from "./MapChart";
-import Main from "./Main";
-import Intro from './stash/Intro';
-import CountryDataVisual from './CountryDataVisual'
 import { Link } from 'react-router-dom';
 import ReactTooltip from "react-tooltip";
 
+import './App.css';
+import MapChart from "./MapChart";
+import MapChartWithToolTip from "./MapChart";
+import Main from "./Main";
+import Intro from './stash/Intro';
+import Scenarios from './stash/Scenarios';
+import CountryDataVisual from './CountryDataVisual'
+
 function App() {
-  const [content, setContent] = useState("");
+  // const [content, setContent] = useState("");
   return (
       <>
-      <h1> Climate Change Progress</h1>
-      <div id="HILLO">
-      <MapChart setTooltipContent={setContent} />
-      <ReactTooltip>{content}</ReactTooltip>
-      <Main />
+      <h1>Climate Change Progress</h1>
 
-      <Intro />
       <Link to="/home">home</Link>
       <Link to="/intro">  intro</Link>
-    </div>
+      <Link to="/scenarios">  scenarios</Link>
+
+      <Main />
       </>
   );
 }

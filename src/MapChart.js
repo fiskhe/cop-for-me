@@ -7,6 +7,7 @@ import {
   Sphere,
   Graticule
 } from "react-simple-maps";
+import ReactTooltip from "react-tooltip";
 import CountryDataVisual from './CountryDataVisual';
 import './css/map.css';
 import geoJSONData from "./data/world-and-aljazeera-data.json"
@@ -33,7 +34,8 @@ const MapChart = ({ setTooltipContent }) => {
                   style={{
                     default: {
                         // gray
-                      fill: "#D6D6DA",
+                      // fill: "#D6D6DA",
+                      fill: "rgb(152, 152, 153)",
                       outline: "bold"
                     },
                     hover: {
@@ -57,5 +59,15 @@ const MapChart = ({ setTooltipContent }) => {
   );
 };
 
-export default memo(MapChart);
+// export default MapChart;
+// export default memo(MapChart);
+
+export default function MapChartWithToolTip({ setContent, content }) {
+    return (
+      <div id="HILLO">
+          <MapChart setTooltipContent={setContent} />
+          <ReactTooltip>{content}</ReactTooltip>
+      </div>
+    );
+}
 
