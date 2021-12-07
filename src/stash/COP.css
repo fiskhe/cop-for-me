@@ -1,0 +1,104 @@
+h1 {
+    color: white;
+    font-weight: 400;
+    text-indent: 10px;
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.world {
+    height: 100px;
+    float: left;
+}
+
+h2 {
+    color: white;
+    text-align: right;
+    margin-right: 110px;
+    font-size: 20px;
+
+}
+table {
+    color: white;
+    margin-right: 0px;
+    margin-left:auto;
+    border-color: white;
+    border-style: groove;
+    border-width: 2px;
+ }
+
+
+.NYT {
+    width: 100px;
+    float: left;
+    alignment: right;
+    margin-right: 10px;
+}
+
+.FP {
+    width: 100px;
+    float: left;
+    alignment: right;
+    margin-right: 10px;
+}
+
+.UN {
+    width: 100px;
+    float: left;
+    alignment: right;
+    margin-right: 10px;
+}
+.quote {
+    width:200px;
+    height:200px;
+    position: fixed;
+    color: white;
+    top: 50%;
+    left: 40%;
+    margin-top: -100px;
+    margin-left: -100px;
+    font-size: 50px;
+    width:430px;
+    word-wrap: break-word;
+    font-style: italic;
+
+}
+
+.author {
+    width:200px;
+    height:200px;
+    position: fixed;
+    color: white;
+    top: 100%;
+    left: 40%;
+    margin-top: -100px;
+    margin-left: -100px;
+    font-size: 30px;
+    width:400px;
+    word-wrap: break-word;
+}
+
+.menu {
+    background-color: inherit;
+    overflow: hidden;
+}
+
+.menu a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.menu a:hover {
+    background-color: inherit;
+    color: black;
+}
+
+.menu a.active {
+    background-color: inherit;
+    color: white;
+}
+
