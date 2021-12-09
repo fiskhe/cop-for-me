@@ -6,7 +6,7 @@ export default function CountryDataVisual(props) {
         <div className="CountryDataVisual">
             <p>{NAME} — {rounded(POP_EST)}</p>
             <div>
-                <p>Pledged to:</p>
+                <p><u>Pledged to</u></p>
                 <p>End Deforestation: {props.value.END_DEFOREST}</p>
                 <p>Quit Coal: {props.value.QUIT_COAL}</p>
                 <p>Cut Methane Emissions: {props.value.CUT_METHANE}</p>
