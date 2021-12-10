@@ -27,8 +27,7 @@ export default function Intro() {
         biodiversity
         as species go extinct due to habitat loss. For more information on how we know that recent temperature trends
         are
-        attributable to human actions, see the <i><a href="scenarios.html">Visualizing Climate Scenarios</a></i>
-         page of this site.
+        attributable to human actions, see the <i><a href="scenarios.html">Visualizing Climate Scenarios</a></i> page of this site.
     </p>
 </div>
 
@@ -41,8 +40,7 @@ export default function Intro() {
 </h3>
 <p>
     The <strong><a href="https://www.ipcc.ch/about/history/">Intergovernmental Panel on Climate Change
-    (IPCC)</a></strong>
-    is a scientific body of the United Nations
+    (IPCC)</a></strong> is a scientific body of the United Nations
     founded in 1988 with
     the purpose of producing regular <strong> climate assessment reports</strong>. These reports supply policymakers
     with
@@ -50,8 +48,7 @@ export default function Intro() {
     knowledge necessary to make informed decisions surrounding the mitigation of anthropogenic climate change. Thousands
     of experts work together, on a voluntary basis, to review relevant published literature and synthesize international
     climate findings in the report. The most recent Sixth Assessment Report (AR6) has released one of its three sections
-    in 2021, and the entire report will be finalized by the end of 2022. A major finding of the IPCC is the need to
-    <strong><a href="https://www.ipcc.ch/sr15/download/">limit
+    in 2021, and the entire report will be finalized by the end of 2022. A major finding of the IPCC is the need to <strong><a href="https://www.ipcc.ch/sr15/download/">limit
         the increase in the global temperature average to 1.5 °C</a></strong> in order to avoid catastrophic
     consequences.
 </p>
@@ -66,7 +63,7 @@ export default function Intro() {
     United Nations Framework Convention on Climate Change (UNFCCC)</a></strong> was created in 1992
     and came into
     effect in 1994. As its name suggests, the UNFCCC sets up a framework for countries to discuss climate change at an
-    annual meeting called the <strong> Conference of the Parties (COP) </strong> . At these meetings, states usually aim
+    annual meeting called the <strong> Conference of the Parties (COP) </strong>. At these meetings, states usually aim
     to create or amend
     international climate treaties and agreements. The Kyoto Protocol and the Paris Agreement are two climate treaties
     that have resulted from COP meetings, and each is named after the host city of their respective COP.
@@ -219,11 +216,11 @@ export default function Intro() {
             </ul>
         </td>
         <td>
-            <a href="https://www.nytimes.com/2021/11/13/climate/cop26-climate-summit-takeaways.html">Reference 1</a>
-            <a href="https://www.bbc.com/news/uk-scotland-glasgow-west-59165781">Reference 2</a>
-            <a
+            <p><a href="https://www.nytimes.com/2021/11/13/climate/cop26-climate-summit-takeaways.html">Reference 1</a></p>
+            <p><a href="https://www.bbc.com/news/uk-scotland-glasgow-west-59165781">Reference 2</a></p>
+            <p><a
                     href="https://www.cfr.org/in-brief/cop26-climate-outcomes-successes-failures-glasgow?gclid=CjwKCAiA7dKMBhBCEiwAO_crFHEEpsGBxBEmR00qF_6f3THeGlv41RHeMPaa2bvYhHFULS5Ilt1mchoCAwUQAvD_BwE">Reference
-                3</a>
+                3</a></p>
         </td>
     </tr>
     </tbody>
@@ -271,9 +268,8 @@ export default function Intro() {
         island nations</a> are
         already
         becoming the first countries to experience the damaging effects of climate change. The concept of <strong><a
-            href="https://www.mrfcj.org/pdf/Principles-of-Climate-Justice.pdf">climate justice</a></strong>
-        highlights the ethical implications of climate change and the need for a just transition that allows poorer
-        countries
+            href="https://www.mrfcj.org/pdf/Principles-of-Climate-Justice.pdf">climate justice</a></strong> highlights the ethical 
+            implications of climate change and the need for a just transition that allows poorer countries
         to develop sustainably, which can be achieved through technology sharing and proposed <strong>"<a
             href="https://www.reuters.com/business/cop/climate-loss-damage-earns-recognition-little-action-cop26-deal-2021-11-13/">loss
         and damage</a>"</strong> funding.
