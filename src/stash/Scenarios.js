@@ -42,8 +42,8 @@ export default function Scenarios() {
     <p>
         How do we know that the currently seen warming temperatures are human-caused rather than due to natural
         fluctuations
-        in the world’s climate? One tool used by scientists to explore the causes of global warming is the production of 
-        <strong>counterfactual</strong> climate
+        in the world’s climate? One tool used by scientists to explore the causes of global warming is the production of <strong>counterfactual</strong> 
+        climate
         scenarios. These scenarios run simulations of what the state of the world would be if human activities (such as
         manufacturing and transportation) were not included as variables. As can be seen to the right, the models that
         do
@@ -132,9 +132,8 @@ export default function Scenarios() {
     </p>
 
     <p>
-        In order to be compliant with the Paris Agreement’s goal of 1.5 °C, GHG emissions in 2030 should be about 45%
-        <strong>lower</strong>
-        than those in 2010. However, the new NDCs still lead to a projected 15.9% <strong>increase</strong> in GHG
+        In order to be compliant with the Paris Agreement’s goal of 1.5 °C, GHG emissions in 2030 should be about 45% <strong>lower</strong> than 
+        those in 2010. However, the new NDCs still lead to a projected 15.9% <strong>increase</strong> in GHG
         emissions
         in 2030 compared
         to 2010. Clearly, the Earth is in dire need of more ambitious NDCs and legally powerful, rather than merely
