@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/cop-for-me/static/css/main.dc67a490.chunk.css",
-    "main.js": "/cop-for-me/static/js/main.bff3bcfa.chunk.js",
-    "main.js.map": "/cop-for-me/static/js/main.bff3bcfa.chunk.js.map",
-    "runtime-main.js": "/cop-for-me/static/js/runtime-main.a0634cad.js",
-    "runtime-main.js.map": "/cop-for-me/static/js/runtime-main.a0634cad.js.map",
-    "static/js/2.c318dd76.chunk.js": "/cop-for-me/static/js/2.c318dd76.chunk.js",
-    "static/js/2.c318dd76.chunk.js.map": "/cop-for-me/static/js/2.c318dd76.chunk.js.map",
-    "static/js/3.fa7d79b8.chunk.js": "/cop-for-me/static/js/3.fa7d79b8.chunk.js",
-    "static/js/3.fa7d79b8.chunk.js.map": "/cop-for-me/static/js/3.fa7d79b8.chunk.js.map",
+    "main.css": "/cop-for-me/static/css/main.a97aa70c.chunk.css",
+    "main.js": "/cop-for-me/static/js/main.26c9c989.chunk.js",
+    "main.js.map": "/cop-for-me/static/js/main.26c9c989.chunk.js.map",
+    "runtime-main.js": "/cop-for-me/static/js/runtime-main.65462723.js",
+    "runtime-main.js.map": "/cop-for-me/static/js/runtime-main.65462723.js.map",
+    "static/js/2.42b18c38.chunk.js": "/cop-for-me/static/js/2.42b18c38.chunk.js",
+    "static/js/2.42b18c38.chunk.js.map": "/cop-for-me/static/js/2.42b18c38.chunk.js.map",
+    "static/js/3.f7f27f76.chunk.js": "/cop-for-me/static/js/3.f7f27f76.chunk.js",
+    "static/js/3.f7f27f76.chunk.js.map": "/cop-for-me/static/js/3.f7f27f76.chunk.js.map",
     "index.html": "/cop-for-me/index.html",
-    "static/css/main.dc67a490.chunk.css.map": "/cop-for-me/static/css/main.dc67a490.chunk.css.map",
-    "static/js/2.c318dd76.chunk.js.LICENSE.txt": "/cop-for-me/static/js/2.c318dd76.chunk.js.LICENSE.txt",
-    "static/media/warm_earth.c52673f1.jpg": "/cop-for-me/static/media/warm_earth.c52673f1.jpg"
+    "static/css/main.a97aa70c.chunk.css.map": "/cop-for-me/static/css/main.a97aa70c.chunk.css.map",
+    "static/js/2.42b18c38.chunk.js.LICENSE.txt": "/cop-for-me/static/js/2.42b18c38.chunk.js.LICENSE.txt",
+    "static/media/FP_pic.83d18ad3.jpg": "/cop-for-me/static/media/FP_pic.83d18ad3.jpg",
+    "static/media/NYT_pic.0a63861b.jpg": "/cop-for-me/static/media/NYT_pic.0a63861b.jpg",
+    "static/media/UN News.8ae500e6.jpg": "/cop-for-me/static/media/UN News.8ae500e6.jpg",
+    "static/media/warm_earth.c52673f1.jpg": "/cop-for-me/static/media/warm_earth.c52673f1.jpg",
+    "static/media/world.63933ab0.png": "/cop-for-me/static/media/world.63933ab0.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a0634cad.js",
-    "static/js/2.c318dd76.chunk.js",
-    "static/css/main.dc67a490.chunk.css",
-    "static/js/main.bff3bcfa.chunk.js"
+    "static/js/runtime-main.65462723.js",
+    "static/js/2.42b18c38.chunk.js",
+    "static/css/main.a97aa70c.chunk.css",
+    "static/js/main.26c9c989.chunk.js"
   ]
 }
