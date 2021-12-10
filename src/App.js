@@ -14,11 +14,22 @@ function App() {
   // const [content, setContent] = useState("");
   return (
       <>
-      <h1>Climate Change Progress</h1>
+      <h1 id="title">COP26 FOR ME</h1>
 
-      <Link to="/home">home</Link>
-      <Link to="/intro">  intro</Link>
-      <Link to="/scenarios">  scenarios</Link>
+      <div id="navBar">
+      <div class="navBarLink">
+          <Link to="/home">Home</Link>
+      </div>
+      <div class="navBarLink">
+          <Link to="/intro">Intro</Link>
+      </div>
+      <div class="navBarLink">
+          <Link to="/scenarios">Scenarios</Link>
+      </div>
+      <div class="navBarLink">
+          <Link to="/map">Map</Link>
+      </div>
+      </div>
 
       <Main />
       </>

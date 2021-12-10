@@ -66,7 +66,7 @@ export default function MapChartWithToolTip({ setContent, content }) {
     return (
       <div id="HILLO">
           <MapChart setTooltipContent={setContent} />
-          <ReactTooltip>{content}</ReactTooltip>
+          <ReactTooltip backgroundColor="none" type="warning">{content}</ReactTooltip>
       </div>
     );
 }

@@ -27,14 +27,14 @@ export default function Scenarios() {
     </p>
 
     <a href="https://www.climate.gov/news-features/understanding-climate/climate-change-global-temperature"><img
-            src={warm_earth} alt="Global Temperature Average" width={400 + 'px'} height={400 + 'px'} class="center" /></a>
+            src={warm_earth} alt="Global Temperature Average" style={{width: '400px', height: '400px'}} class="center" /></a>
 </div>
 
 <div class="clearfix">
     <a href="https://archive.ipcc.ch/publications_and_data/ar4/wg1/en/figure-9-5.html">
         <img src="https://archive.ipcc.ch/publications_and_data/ar4/wg1/en/fig/figure-9-5-l.png"
              alt="Climate Models with and without Anthropogenic Forcings"
-             height={450 + 'px'} width={300 + 'px'} float={'right'} margin={16 + 'px'}
+             style={{height: '450px', width: '300px', float: 'right', margin: '16px'}}
              class="center"/></a>
     <h2>
         Anthropogenic Forcings
@@ -42,7 +42,7 @@ export default function Scenarios() {
     <p>
         How do we know that the currently seen warming temperatures are human-caused rather than due to natural
         fluctuations
-        in the world’s climate? One tool used by scientists to explore the causes of global warming is the production of
+        in the world’s climate? One tool used by scientists to explore the causes of global warming is the production of 
         <strong>counterfactual</strong> climate
         scenarios. These scenarios run simulations of what the state of the world would be if human activities (such as
         manufacturing and transportation) were not included as variables. As can be seen to the right, the models that
@@ -85,14 +85,15 @@ export default function Scenarios() {
     <a href="https://unfccc.int/process-and-meetings/the-paris-agreement/nationally-determined-contributions-ndcs/nationally-determined-contributions-ndcs/ndc-synthesis-report#eq-5">
         <img src="https://unfccc.int/sites/default/files/2021-09/Fig3_PercentageAbovePast_15Sept.jpg"
              alt="Pledges for 2030 Emissions"
-             height={300 + 'px'} width={'auto'} class="center"/>
+             style={{height: '300px', width: 'auto'}}
+             class="center"/>
     </a>
 
     <p>
         Even after COP26, current pledges are still not enough to meet the <a
             href="https://unfccc.int/sites/default/files/english_paris_agreement.pdf">Agreement’s</a> broad goal of
         keeping global
-        warming
+        warming 
         <strong>“well below 2 °C above pre-industrial levels,”</strong> much less meet the Agreement’s more ambitious
         vision
         of limiting

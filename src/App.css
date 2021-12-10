@@ -1,3 +1,29 @@
+/* #toolTip { */
+/*     /* background-color: none; */ */
+/* } */
+.__react_component_tooltip {
+    background-color: none;
+}
+
+#Title {
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+#navBar {
+    /* display: block; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    text-align: center;
+}
+
+.navBarLink {
+    /* border-style: solid black bold; */
+    display: inline-block;
+    width: 50px;
+    padding: 10px;
+}
+
+
 .App {
   text-align: center;
 }
